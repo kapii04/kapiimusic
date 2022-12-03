@@ -134,7 +134,7 @@ btnn =[
 
 #play
 @Zaid.on(events.NewMessage(pattern="^[?!/]play"))
-@is_admin
+@AssistantAdd
 async def play(event):
     title = ' '.join(event.text[5:])
     replied = await event.get_reply_message()
