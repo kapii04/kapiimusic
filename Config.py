@@ -7,7 +7,7 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOL4Bu75Nnbh0VY4EYgJuJ1jR9xpvJ-YiCcEACgUWn_UhYqNI3AZUpCsJh0EcXfOFmGCez5Kx_-f5Jl_psZ1mNlOmi1GogYj-FC53Lf9k-ES02JnkZ8qsq8ARuLk4gjcEEvwit-noXpwz8L0Ykkn6cfOCIKeynqrH5jaix3kBRTyD9gddTb5z08sqc1IpFrfi-AbGoCb5tmXg0o9jtozvMnSWK6cLiJvrX77Pbt0BTTc1DXby739g8dtmClcHD_RhKUMdwEHaf3_w4y7AIvgcVKXFEFGYJjFegX6DhsrjEoqWt1Zygk-mzbJDgMy4BIE03cRUpzh_5cPZjPIEO75u_aslMLw=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "kapiimusicbot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "kapiimusic_bot")
     SUPPORT = os.environ.get("SUPPORT", "caritemenmabar_ml") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "kapiipay") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/08baa12dc36e96c9019b8.jpg")
