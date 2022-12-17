@@ -45,7 +45,7 @@ pip3 install -U pip
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash 
 source ~/.bashrc
 nvm install v18 #nodejs 18+
-git clone https://github.com/ITZ-ZAID/Telethon-Music # clone the repo.
+git clone https://github.com/kapii04/kapiimusic # clone the repo.
 cd Telethon-Music
 pip3 install -U -r requirements.txt
 nano config.py #edit your vars separate by space
